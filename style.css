@@ -1,0 +1,75 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.large{
+    height: 125vh;
+    width: 100vw;
+    position: relative;
+    background-size:cover;
+    background-position: 50% 50%;
+    background-image:url(https://wallpaperaccess.com/full/2260946.png);
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+}
+
+.overlay h1{
+    font-size: 4em;
+    text-align: center;
+    margin-top: -3px;
+}
+
+.overlay ul {
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    align-items:center;
+    text-align: center;
+    margin-left: -45px;
+    margin-top: -30px;
+}
+
+.overlay ul li {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.overlay ul a:link {
+    text-decoration: underline;
+    color: white;
+}
+
+.overlay ul a:hover {
+    color:rgb(209, 110, 113);
+    text-decoration: underline;
+}
+
+.overlay ul a:active {
+    color:white;
+    text-decoration: underline;
+}
+
+.overlay ul a:visited {
+    color:white;
+    text-decoration: underline;
+}
+
+.overlay h2{
+    margin-top: -40px;
+    margin-bottom: 40px;
+    font-size: 1.7em;
+}
