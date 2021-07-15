@@ -10,9 +10,8 @@ body {
     height: 125vh;
     width: 100vw;
     position: relative;
-    background-size:cover;
-    background-position: 50% 50%;
-    background-image:url(https://wallpaperaccess.com/full/2260946.png);
+    background-image:url(bg.jpg);
+    background-repeat: inherit;
 }
 
 .overlay{
@@ -30,7 +29,7 @@ body {
 .overlay h1{
     font-size: 4em;
     text-align: center;
-    margin-top: -3px;
+    margin-top: 0.25px;
 }
 
 .overlay ul {
